@@ -6,6 +6,7 @@ export default function() {
         <div layout="row">
           <md-icon ng-if="$mdAccordionContent.svgIcon" md-svg-icon="$mdAccordionContent.svgIcon"></md-icon>
           <md-icon ng-if="$mdAccordionContent.icon">{{ $mdAccordionContent.icon }}</md-icon>
+          <i ng-if="$mdAccordionContent.class" class=\"{{ $mdAccordionContent.class }}\"></i>
           <span flex>{{ $mdAccordionContent.heading }}</span>
           <md-icon ng-if="$mdAccordionContent.arrow" class="accordion-arrow" aria-hidden="true">keyboard_arrow_down</md-icon>
         </div>

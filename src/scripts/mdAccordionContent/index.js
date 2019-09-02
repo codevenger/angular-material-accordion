@@ -9,6 +9,7 @@ let directive = () => {
       heading: '@mdHeading',
       icon: '@?mdIcon',
       svgIcon: '@?mdSvgIcon',
+      class: '@?mdClass',
       arrow: '@?mdArrow',
       collapsed: '=?mdAccordionCollapsed'
     },
